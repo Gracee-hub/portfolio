@@ -182,3 +182,20 @@ footer {
     font-size: 13px;
     color: gray;
 }
+@media (max-width: 768px) {
+    .image-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-img {
+        width: 90%;
+    }
+}
+.project-img {
+    transition: 0.3s;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
