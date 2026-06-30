@@ -172,8 +172,13 @@ button:hover {
     background: #ffe6f0;
     padding: 30px;
     border-radius: 10px;
-    width: 250px;
+    width: 300px;
 }
+.contact QR CODE {
+    position:relative;
+    padding:auto;
+    border-radius:10px;
+    
 
 /* ===== FOOTER ===== */
 footer {
